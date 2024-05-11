@@ -39,6 +39,7 @@ class DiscordWebhook
         $this->debug = $debug;
     }
 
+
     public function send(): bool
     {
         try {

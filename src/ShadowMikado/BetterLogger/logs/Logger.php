@@ -24,7 +24,12 @@ class Logger
 
     }
 
-    private static function format(Log $log, $args): string
+    /**
+     * @param Log $log
+     * @param String[] $args
+     * @return string
+     */
+    private static function format(Log $log, array $args): string
     {
         return str_replace(array_map(function ($param) {
             return "{" . $param . "}";

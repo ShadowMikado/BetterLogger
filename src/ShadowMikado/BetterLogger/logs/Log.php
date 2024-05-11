@@ -2,7 +2,7 @@
 
 namespace ShadowMikado\BetterLogger\logs;
 
-abstract class  Log
+abstract class Log
 {
 
     /**
